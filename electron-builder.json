@@ -1,0 +1,14 @@
+{
+  "appId": "com.printingformatter.app",
+  "productName": "Printing Formatter",
+  "directories": {
+    "output": "release"
+  },
+  "files": [
+    "dist/**/*",
+    "electron.cjs"
+  ],
+  "win": {
+    "target": "portable"
+  }
+}
